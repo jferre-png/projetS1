@@ -1,0 +1,17 @@
+html {
+    width:960px ;
+}
+
+main.centre, .accueil>main {
+    width: 620px;
+}
+
+.contact\.module-footer, .mentions-legales\.module-footer, .reseaux\.module-footer, .glossaire\.module-footer {
+    display: table-cell;
+}
+
+.centre {
+    display: block;
+    width: 940px;
+    margin-left: 30px;
+}
