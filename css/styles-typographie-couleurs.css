@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('mescss/verdana.woff') format('woff'),
+    url('mescss/verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Terminator';
+    src: url('mescss/terminator real nfi.woff') format('woff'),
+    url('mescss/terminator real nfi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+body>p {
+    font-size: 14px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+h1,h2,h3,h4, nav, body.accueil>main.centre {
+    font-family: Terminator, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-top: 42px;
+    margin-bottom: 21px;
+}
+
+.centre>h1>a>span {
+    font-style: normal;
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+body>header>div.centre>h1 {
+    margin-bottom: 21px;
+}
+
+.centre>h1>a>span {
+    display: block;
+    font-size: 100px;
+    line-height: 90px;
+    color: green;
+}
+
+h3, .chapeau, .bandeau-navigation>.centre>nav>ul {
+    font-size: 21px;
+    line-height: 21px;
+    margin-bottom: 21px;
+    margin-top: 42px;
+}
+
+.bandeau-navigation>.centre>nav>ul {
+    margin-top: 15px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bandeau-navigation, footer {
+    background-color: black;
+    color: white;
+}
+
+.bandeau-navigation>.centre>nav>ul>li>a,.centre>.contact\.module-footer>address>p>a, .centre>.reseaux\.module-footer>ul>li>a, .centre>.glossaire\.module-footer>p>a  {
+    color: white;
+}
