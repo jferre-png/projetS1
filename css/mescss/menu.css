@@ -70,7 +70,8 @@
 }
 
 .menu a {
-    color: white;
+    color: #038BDB;
+    margin: 30px;
 }
 
 .menu-open .nav-toggle-bar{

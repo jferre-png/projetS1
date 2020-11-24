@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Terminator', sans serif;
+    font-size: 1;6 rem;
+    line-height: 1;6;
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: midnightblue;
+}
