@@ -29,23 +29,41 @@
         <h1><a href="">TERMINATEUR <span>WEB</span></a></h1> </div>
 </header>
 <h4>ME CONTACTER</h4>
-<p>Nom:</p>
-<p>Prénom:</p>
-<p>Mail:</p>
-<p>Autres:</p>
-<p>Message:</p>
-<p>ENVOYER</p>
+
+<form action="" method="post">
+    <div>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">Mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="mail">Autres:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+</form>
+
+<div class="button">
+    <button type="submit">ENVOYER</button>
+</div>
+
 <p>Mes Réseaux:</p>
 <div class=".réseaux">
     <ul>
-        <li><a href="https://www.instagram.com/juju_le_videomaker/"><img src="img/Insta.png"</a></li>
-        <li><a href="https://www.facebook.com/julien.ferre.9"><img src="img/fb.png"</a></li>
-        <li><a href="https://twitter.com/jeanmichelFER13"><img src="img/Emblème-Twitter.jpg"</a></li>
+        <li><a href="https://www.instagram.com/juju_le_videomaker/"><img src="img/Insta.png"></a></li>
+        <li><a href="https://www.facebook.com/julien.ferre.9"><img src="img/fb.png"></a></li>
+        <li><a href="https://twitter.com/jeanmichelFER13"><img src="img/Emblème-Twitter.jpg"></a></li>
     </ul>
 </div>
 
 <div class="bandeau-navigation">
-    <div class="centre">
+    <div class="nav">
         <nav>
             <h4>Navigation principale</h4>
             <ul>
@@ -61,5 +79,6 @@
         <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/">MMI</a> de montbéliard.</p>
         <div class="mentions-footer"></div>
     </footer>
+</div>
 </body>
 </html>
