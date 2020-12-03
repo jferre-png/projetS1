@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Terminator';
     src: url('mescss/terminator real nfi.woff') format('woff'),
-    url('mescss/terminator real nfi.ttf') format('truetype');
+    url('terminator real nfi.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,14 +21,17 @@ p {
 }
 
 body>p {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 21px;
     margin-top: 21px;
 }
 
 img {
-    width: 240px;
-    height: 145px;
+    width: 130%;
+    height: 100%;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #038BDB;
 }
 
 
