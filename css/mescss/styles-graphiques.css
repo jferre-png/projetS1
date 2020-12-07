@@ -1,5 +1,23 @@
-.bandeau-navigation>.centre>nav>h4 {
+.bandeau-navigation>.nav>nav>h4 {
     display: none;
+}
+
+.bandeau-navigation>.nav>nav {
+    display: inline-block;
+    text-align: center;
+}
+
+.bandeau-navigation>.nav>nav>ul>li {
+     display: inline;
+     margin-left: 40px;
+ }
+
+.contct {
+    margin-left: 185px;
+}
+
+.CV {
+    float: right;
 }
 
 ul {
@@ -8,96 +26,194 @@ ul {
     padding: 0;
 }
 
-body>header>.centre>h1 {
-    display: inline-block;
-    position: relative;
-}
-
-/*body>header>.centre>h1::after {
-    content: url("LOGOS/Composant%209%20–%201.png");
-    position: absolute;
-    bottom: 0;
-    right: -125px;
-}*/
-
 body {
     background-color: #0e0c02;
     color: #CFCCCC;
-    font-size: 2rem;
-}
-
-/*.bandeau-navigation {
-    border-bottom:1em solid ;
-    border-bottom-color: #e4e4e4 ;
-}*/
-
-.bandeau-navigation>.centre>nav {
-    display: inline-block;
-}
-
-.bandeau-navigation>.centre>nav>ul>li {
-    display: inline;
-}
-
-.bandeau-navigation>.centre>nav>ul>li>a {
-    display: inline-block;
-    margin-left: 15px;
+    font-size: 1rem;
 }
 
 a:hover  {
     background-color: #e4e4e4;
-    color: #000;
+    color: #B1B87C;
 }
 
-/*.bandeau-navigation>.centre>.google {
-    float: right;
-    margin-top:15px ;
-    margin-right: 100px;
-}*/
-
-/*.contact\.module-footer, .mentions-legales\.module-footer, .reseaux\.module-footer, .glossaire\.module-footer  {
-    width: 200px;*/
-
-
-.reseaux\.module-footer a[href^="#1"] {
-    background-image: url("fb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
-
-.reseaux\.module-footer a[href^="Facebook"] {
-    background-image: url("fb.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
-
-.reseaux\.module-footer a[href^="Twitter"] {
-    background-image: url("Emblème-Twitter.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-left: 30px;
+h1 {
+    text-align: center;
 }
 
 \.réseaux {
     display: inline;
 }
 
-body>header>.centre>h1:before {/* le pseudo élément ":after" de ce même h1 */
-    content: url('Composant 9 – 1.png');/* en contenu, l'url de l'image */
-    position: relative;/* Placé en position absolue */
-    bottom: 0;
-    font-size: 20px;
+
+form {
+    padding: 2em;
 }
+
+form div + div {
+    margin-top: 2em;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 500px;
+    height: 50px;
+}
+
+.message textarea {
+    width: 500px;
+    height: 500px;
+}
+
+.button {
+    padding-right: 90px;
+}
+
+button {
+    margin-right: .5em;
+    background-color: #B1B87C;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    padding: 4px;
+    top: 0;
+    bottom: 0;
+}
+
+header a {
+    color: #7B78DC;
+}
+
+header img {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+header h1 {
+    position: absolute;
+    top: 0;
+    padding-left: 170px;
+}
+
+header span {
+    position: absolute;
+    color: #29E61F;
+    font-size:90px;
+    top: 60px;
+}
+
+.réseaux ul li {
+    vertical-align: middle;
+}
+
+.réseaux ul li a img {
+     display: table-cell;
+     vertical-align: top;
+ }
+
+footer p {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+  }
 
 .mentions-footer {
     content: url('logo-mmi.png');
     width: 100px;
     height: 100px;
+    float: right;
 }
 
-.bandeau-navigation .centre ul li a:nth-child(1n) {
-    color: #B1B87C;
+img {
+    max-width: 800px;
+    max-height: 450px;
+    border-style: ridge;
+    border-color: #038BDB;
+
 }
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+
+}
+
+figcaption {
+    background-color: #038BDB;
+    color: #0e0c02;
+    font-weight: bold;
+    font-size: 30%;
+    padding: 3px;
+    text-align: center;
+    width: 89.52%;
+}
+
+.video figcaption  {
+    width: 70%;
+}
+
+figcaption {
+    font-size: 75%;
+}
+
+.couv {
+    margin-left: 250px;
+}
+
+.couv img {
+    width: 50%;
+    height: 800px;
+}
+
+.couv figcaption {
+    width: 50%;
+}
+
+.couv2 {
+    width: 35%;
+}
+
+hr {
+    border: white solid;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.externes figure img {
+    height: 800px;
+    width: 500px;
+}
+
+.internes ul li a {
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #707070;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #038BDB;
+}
+
+
+
+
 

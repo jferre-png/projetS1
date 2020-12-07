@@ -1,3 +1,5 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css');
+
 @font-face {
     font-family: 'Verdana';
     src: url('mescss/Verdana.woff') format('woff');
@@ -14,11 +16,25 @@
     font-style: normal;
 }
 
+.liste ul li a {
+    color: #038BDB;
+}
+
+.fa {
+    color: #038BDB;
+}
+
 p {
     font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: left;
+    color: #CFCCCC;
 }
+
+.citation p {
+     font-style: italic;
+ }
 
 body>p {
     font-size: 20px;
@@ -26,28 +42,53 @@ body>p {
     margin-top: 21px;
 }
 
-img {
-    width: 130%;
-    height: 100%;
-    border-style: outset;
-    border-width: 2px;
-    border-color: #038BDB;
+body {
+    padding-left: 20px;
 }
 
+body>header>div.centre>h1>a {
+     color: #7B78DC;
+     font-size: 28px;
+     width: 200px;
+ }
 
+body header .centre h1 {
+    width: 300px;
+}
+
+.auteur {
+    margin-top: 0;
+}
 
 a:link {
    color: #038BDB;
 }
 
+a {
+     color: blue;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+.externes a {
+    color: #B1B87C;
+    font-family: Verdana, sans-serif;
+
+}
+
+.externes figcaption {
+    font-size: 150%;
+    width: 500px;
+    background-color: #0e0c02;
+}
+
+.liste ul li a {
+     font-size: 50%;
+ }
+
 h1,h2,h3,h4,.bandeau-navigation {
     font-family: Terminator, sans-serif;
     font-weight: normal;
-}
-
-
-footer>p {
-    color: #CFCCCC;
 }
 
 h1 {
@@ -57,10 +98,6 @@ h1 {
     margin-bottom: 21px;
 }
 
-.centre>h1>a>span {
-    font-style: normal;
-    font-size: 42px;
-}
 
 h2 {
     font-size: 28px;
@@ -70,34 +107,51 @@ h2 {
     color: #707070;
 }
 
-body>header>div.centre>h1>a {
-    margin-bottom: 21px;
-    color: #7B78DC;
-}
-
-.centre>h1>a>span {
-    display: block;
-    font-size: 100px;
-    line-height: 90px;
-    color: #29E61F;
-}
-
-h3, .bandeau-navigation>.centre>nav>ul {
-    font-size: 21px;
+h3 {
+    font-size: 30px;
     line-height: 21px;
     margin-bottom: 21px;
     margin-top: 42px;
     color: #8A9A8E;
 }
 
-.bandeau-navigation>.centre>nav>ul {
-    margin-top: 15px;
+h4 {
+     color: #B1B87C;
+    font-size: 120%;
+ }
+
+.centreaccueil h4 {
+    font-size: 95%;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
-    font-weight: bold;
+.deapropos h4 {
+    font-size: 200%;
+}
+
+.deapropos .text a , .externes a {
+    font-size: 200%;
+}
+
+.deapropos main p {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+}
+
+.deapropos .internes li {
+    font-size: 150%;
+}
+
+.retour {
+    text-align: center;
+}
+
+.text ul li a {
+    font-family: Verdana, sans-serif;
+    font-size: 150%;
+}
+
+.bandeau-navigation ul li a {
+    font-size: 30px;
 }
 
 .bandeau-navigation, footer {
@@ -105,12 +159,38 @@ a {
     color: white;
 }
 
-.bandeau-navigation>.centre>nav>ul>li>a,.centre>.contact\.module-footer>address>p>a, .centre>.reseaux\.module-footer>ul>li>a, .centre>.glossaire\.module-footer>p>a  {
-    color: #B5BDC2;
+.bandeau-navigation>.nav>nav>ul>li>a  {
+    color: #B1B87C;
+    text-align: center;
 }
 
-h4 {
-   color: #038BDB;
+footer>p {
+    color: #CFCCCC;
 }
 
+footer p {
+    font-size: 70%;
+}
+
+.left ul li a {
+    font-family: Verdana, sans-serif;
+}
+
+.internes ul li a {
+    color: #B1B87C;
+}
+
+.text {
+    color: #038BDB;
+}
+
+.vid h4 {
+    font-family: Terminator, sans-serif;
+    color: #29E61F;
+}
+
+.vid video {
+    width: 80%;
+    height: 80%;
+}
 

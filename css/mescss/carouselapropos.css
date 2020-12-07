@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+code {
+    color: #038BDB;
+}
+
+.carousel h3,
+header {
+    margin: 0 20px;
+}
+
+.carousel {
+    background-color: #038BDB;
+    color: #CFCCCC;
+    padding:20px 0;
+}
+
+.carousel-items {
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 220px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+}
