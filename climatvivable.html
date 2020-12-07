@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <h1><a href="/">Menu mobile</a></h1>
+
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
@@ -26,9 +26,14 @@
         </ul>
     </nav>
     <div class="centre">
-        <h1><a href="">TERMINATEUR <span>WEB</span></a></h1> </div>
+        <header>
+            <a><img src="img/logo_terminateur_web.png" alt="Image"></a>
+            <h1><a href="">TERMINATEUR <span>WEB</span></a></h1>
+        </header>
+    </div>
 </header>
-<h3>CLIMAT VIVABLE ?</h3>
+<hr>
+<h1>CLIMAT VIVABLE ?</h1>
 <main class="left">
     <div class=citation>
         <p>L'homme est-il responsable du réchauffement climatique ?
@@ -38,10 +43,12 @@
         <p>André Légendre
         </p>
     </div>
-    <img src="img/e3b72826bf_114784_rechauffement-climatique-illustration.jpg" alt="Image">
-    <div class="Représentation théorique du réchauffement climatique avant/après">
-        <p>Des éoliennes aux énergies renouvelables</p>
-    </div>
+    <figure>
+    <img src="img/rechauffement_climatique_illustration.jpg" alt="Image">
+    <figcaption>
+        Des éoliennes aux énergies renouvelables
+    </figcaption>
+    </figure>
     <div class="texte">
         <p>
             Une vision optimiste du réchauffement climatique d'il y a 10 ans:
@@ -80,12 +87,14 @@
             limites de la variabilité naturelle. (p289) "
         </p>
     </div>
-    <img src="img/films%20correlés/L_Homme_est_il_responsable_du_r_chauffement_climatique.jpg" alt="Image">
-    <div class="description">
-        <p>Page de couverture du livre</p>
-    </div>
+    <figure class="couv">
+    <img src="img/lhomme_est_il_responsable.jpg" alt="Image">
+    <figcaption class="couv2">
+        Page de couverture du livre
+    </figcaption>
+    </figure>
 </main>
-
+<hr>
     <div class="bandeau-navigation">
         <div class="nav">
             <nav>
@@ -96,11 +105,12 @@
                     <li><a href="index.html">ACCUEIL</a></li>
                     <li><a href="apropos.html">A PROPOS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="">></a></li>
+
                 </ul>
             </nav>
         </div>
         <footer>
+            <hr>
             <p>Mon nom est Julien Ferré, je suis en MMI B1</p>
             <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/">MMI</a> de montbéliard.</p>
             <div class="mentions-footer"></div>
