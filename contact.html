@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/mescss/styles-mise-en-page.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Le jugement dernier</title>
 </head>
 <body>
 <header>
-    <h1><a href="/">Menu mobile</a></h1>
+
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
@@ -26,9 +26,15 @@
         </ul>
     </nav>
     <div class="centre">
-        <h1><a href="">TERMINATEUR <span>WEB</span></a></h1> </div>
+        <header>
+            <a><img src="img/logo_terminateur_web.png" alt="Image"></a>
+            <h1><a href="">TERMINATEUR <span>WEB</span></a></h1>
+        </header>
+    </div>
 </header>
+<hr>
 <h4>ME CONTACTER</h4>
+
 
 <form action="" method="post">
     <div>
@@ -41,9 +47,9 @@
     </div>
     <div>
         <label for="mail">Autres:</label>
-        <input type="email" id="mail" name="user_mail">
+        <input type="email" id="autres" name="user_mail">
     </div>
-    <div>
+    <div class="message">
         <label for="msg">Message:</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
@@ -56,25 +62,24 @@
 <p>Mes Réseaux:</p>
 <div class=".réseaux">
     <ul>
-        <li><a href="https://www.instagram.com/juju_le_videomaker/"><img src="img/Insta.png"></a></li>
-        <li><a href="https://www.facebook.com/julien.ferre.9"><img src="img/fb.png"></a></li>
-        <li><a href="https://twitter.com/jeanmichelFER13"><img src="img/Emblème-Twitter.jpg"></a></li>
+        <li><a href="https://twitter.com/jeanmichelFER13" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/julien.ferre.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/juju_le_videomaker/" target="_blank"><i class="fa fa-instagram"></i></a></li>
     </ul>
 </div>
-
+<hr>
 <div class="bandeau-navigation">
     <div class="nav">
         <nav>
             <h4>Navigation principale</h4>
-            <ul>
-                <li><a href=""><</a></li>
+                <ul class="contct">
                 <li><a href="index.html">ACCUEIL</a></li>
                 <li><a href="apropos.html">A PROPOS</a></li>
-                <li><a href="">></a></li>
             </ul>
         </nav>
     </div>
     <footer>
+        <hr>
         <p>Mon nom est Julien Ferré, je suis en MMI B1</p>
         <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/">MMI</a> de montbéliard.</p>
         <div class="mentions-footer"></div>
