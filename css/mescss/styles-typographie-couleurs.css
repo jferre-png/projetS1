@@ -32,9 +32,51 @@ p {
     color: #CFCCCC;
 }
 
-.citation p {
-     font-style: italic;
- }
+blockquote p {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: #0e0c02;
+}
+.auteur {
+    width: 100%;
+}
+
+.cite {
+    background-color: #7B78DC;
+}
+
+caption {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid #B1B87C;
+    font-family: Terminator, sans-serif;
+    font-size: 150%;
+}
+
+td,
+th {
+    border: 1px solid #B1B87C;
+    padding: 7px 5px;
+}
+
+th {
+    background-color: #B1B87C;
+    color: #0e0c02;
+}
+
+td {
+    text-align: center;
+    background-color: #0e0c02;
+}
+
+td a {
+    color: #B1B87C;
+}
 
 body>p {
     font-size: 20px;
@@ -124,8 +166,13 @@ h4 {
     font-size: 95%;
 }
 
+.centreaccueil h1 {
+    color: #B1B87C;
+    -webkit-text-stroke: 3px #0e0c02;
+}
+
 .deapropos h4 {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .deapropos .text a , .externes a {
@@ -154,8 +201,7 @@ h4 {
     font-size: 30px;
 }
 
-.bandeau-navigation, footer {
-    background-color: black;
+.bandeau-navigation {
     color: white;
 }
 

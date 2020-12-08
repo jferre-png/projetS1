@@ -1,3 +1,4 @@
+
 .bandeau-navigation>.nav>nav>h4 {
     display: none;
 }
@@ -82,6 +83,14 @@ header {
     bottom: 0;
 }
 
+header:before {content:url("background_header.jpg");
+    position:absolute;
+    top:-350px;
+    left:-75px;
+    opacity: 0.15;
+    z-index:-1;
+}
+
 header a {
     color: #7B78DC;
 }
@@ -91,6 +100,7 @@ header img {
     width: 150px;
     height: 150px;
     margin: 0;
+    border: 0;
 }
 header h1 {
     position: absolute;
@@ -105,6 +115,24 @@ header span {
     top: 60px;
 }
 
+.un {
+    margin: 0;
+    padding: .3rem;
+    background-color: #707070;
+
+}
+
+.deux {
+    margin: .5rem;
+    padding: .3rem;
+    background-color: #038BDB;
+}
+
+.deux p {
+    color: #0e0c02;
+}
+
+
 .réseaux ul li {
     vertical-align: middle;
 }
@@ -118,7 +146,16 @@ footer p {
       display: inline-block;
       margin: 0;
       padding: 0;
+      position: relative;
   }
+
+footer:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -2280px;
+    left:0;
+    opacity: 0.2;
+    z-index:-1;
+}
 
 .mentions-footer {
     content: url('logo-mmi.png');
@@ -131,8 +168,8 @@ img {
     max-width: 800px;
     max-height: 450px;
     border-style: ridge;
+    border-width: 10px;
     border-color: #038BDB;
-
 }
 
 figure {
@@ -140,25 +177,20 @@ figure {
     flex-flow: column;
     padding: 5px;
     margin: auto;
-
 }
 
 figcaption {
     background-color: #038BDB;
     color: #0e0c02;
     font-weight: bold;
-    font-size: 30%;
+    font-size: 75%;
     padding: 3px;
     text-align: center;
-    width: 89.52%;
+    width: 91%;
 }
 
 .video figcaption  {
     width: 70%;
-}
-
-figcaption {
-    font-size: 75%;
 }
 
 .couv {
@@ -171,11 +203,35 @@ figcaption {
 }
 
 .couv figcaption {
-    width: 50%;
+    width: 52%;
 }
 
 .couv2 {
     width: 35%;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-family: 'Terminator', sans-serif;
+    font-size: 150%;
+    color: #B1B87C;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
 }
 
 hr {
