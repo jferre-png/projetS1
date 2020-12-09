@@ -1,18 +1,4 @@
 
-.bandeau-navigation>.nav>nav>h4 {
-    display: none;
-}
-
-.bandeau-navigation>.nav>nav {
-    display: inline-block;
-    text-align: center;
-}
-
-.bandeau-navigation>.nav>nav>ul>li {
-     display: inline;
-     margin-left: 40px;
- }
-
 .contct {
     margin-left: 185px;
 }
@@ -42,10 +28,13 @@ h1 {
     text-align: center;
 }
 
-\.réseaux {
+.réseaux {
     display: inline;
 }
 
+label {
+    color: #B1B87C;
+}
 
 form {
     padding: 2em;
@@ -59,6 +48,7 @@ input, textarea {
     font: 1em sans-serif;
     width: 500px;
     height: 50px;
+    background-color: #7B78DC;
 }
 
 .message textarea {
@@ -83,10 +73,10 @@ header {
     bottom: 0;
 }
 
-header:before {content:url("background_header.jpg");
+header:before {content:url("smoke_background.jpg");
     position:absolute;
-    top:-350px;
-    left:-75px;
+    top:0;
+    left: -450px;
     opacity: 0.15;
     z-index:-1;
 }
@@ -97,29 +87,30 @@ header a {
 
 header img {
     display: inline;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     margin: 0;
     border: 0;
 }
 header h1 {
     position: absolute;
-    top: 0;
-    padding-left: 170px;
+    top: 100px;
+    padding-left: 400px;
+    font-size: 150%;
 }
 
 header span {
     position: absolute;
     color: #29E61F;
-    font-size:90px;
-    top: 60px;
+    font-size:400%;
+    top: 170px;
+    padding-left: 200px;
 }
 
 .un {
     margin: 0;
     padding: .3rem;
     background-color: #707070;
-
 }
 
 .deux {
@@ -132,7 +123,6 @@ header span {
     color: #0e0c02;
 }
 
-
 .réseaux ul li {
     vertical-align: middle;
 }
@@ -143,15 +133,64 @@ header span {
  }
 
 footer p {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      position: relative;
-  }
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
 
 footer:before {content:url("background_footer.jpg");
     position:absolute;
-    bottom: -2280px;
+    bottom: -1890px;
+    left:-40px;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footaccueil:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -6890px;
+    left:-50px;
+    opacity: 0.2;
+    z-index:-1;
+
+}
+
+.footun:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -14930px;
+    left:-50px;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footdeux:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -14200px;
+    left:0;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footrois:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -14635px;
+    left:0;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footquatre:before {content:url("background_footer.jpg");
+    position:absolute;
+    bottom: -12550px;
+    left:0;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footaprop:before {content:url("background_footer.jpg");
+    position:fixed;
+    bottom: -500px;
     left:0;
     opacity: 0.2;
     z-index:-1;
@@ -159,51 +198,68 @@ footer:before {content:url("background_footer.jpg");
 
 .mentions-footer {
     content: url('logo-mmi.png');
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 
 img {
-    max-width: 800px;
-    max-height: 450px;
+    max-width: 4000px;
+    max-height: 1500px;
     border-style: ridge;
     border-width: 10px;
     border-color: #038BDB;
+    height: 800px;
+    width: 1300px;
+}
+
+.gafam img {
+    height: 700px;
 }
 
 figure {
     display: flex;
     flex-flow: column;
-    padding: 5px;
     margin: auto;
+    padding-right: 70px;
 }
 
 figcaption {
     background-color: #038BDB;
     color: #0e0c02;
     font-weight: bold;
-    font-size: 75%;
+    font-size: 90%;
     padding: 3px;
     text-align: center;
-    width: 91%;
+    width: 158%;
 }
 
 .video figcaption  {
-    width: 70%;
+    width: 158%;
 }
+
+.video video {
+    max-width: 4000px;
+    max-height: 1500px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #038BDB;
+    height: 800px;
+    width: 1300px;
+}
+
 
 .couv {
     margin-left: 250px;
 }
 
 .couv img {
-    width: 50%;
-    height: 800px;
+    width: 150%;
+    height: 1400px;
 }
 
 .couv figcaption {
-    width: 52%;
+    width: 152%;
 }
 
 .couv2 {
@@ -214,6 +270,7 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
+    width: 150%;
 }
 
 summary {
@@ -223,6 +280,7 @@ summary {
     font-family: 'Terminator', sans-serif;
     font-size: 150%;
     color: #B1B87C;
+    width: 100%;
 }
 
 details[open] {
@@ -234,6 +292,10 @@ details[open] summary {
     margin-bottom: .5em;
 }
 
+details ul li {
+    font-size: 70%;
+}
+
 hr {
     border: white solid;
     border-top: 3px double #333;
@@ -241,6 +303,7 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
+    width: 160%;
 }
 
 hr:after {
@@ -249,12 +312,13 @@ hr:after {
     top: -13px;
 }
 
+.visite {
+    width: 160%;
+}
+
 .externes figure img {
     height: 800px;
     width: 500px;
-}
-
-.internes ul li a {
 }
 
 ::-webkit-scrollbar {

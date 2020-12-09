@@ -16,20 +16,26 @@
     font-style: normal;
 }
 
-.liste ul li a {
+.liste ul .films a{
     color: #038BDB;
+    font-size: 30pt;
+    height: 50px;
+    width: 100px;
+
 }
 
 .fa {
     color: #038BDB;
+    font-size: 200%;
 }
 
 p {
     font-family: Verdana, sans-serif;
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 140%;
+    line-height: 120px;
     text-align: left;
     color: #CFCCCC;
+    width: 130%;
 }
 
 blockquote p {
@@ -37,14 +43,12 @@ blockquote p {
     margin: 0;
     padding: 0;
     border-radius: 5px;
-    color: #0e0c02;
-}
-.auteur {
-    width: 100%;
+    color: #8A9A8E;
 }
 
-.cite {
-    background-color: #7B78DC;
+.auteur {
+    color: #8A9A8E;
+    font-family: Verdana, sans-serif;
 }
 
 caption {
@@ -55,7 +59,7 @@ table {
     border-collapse: collapse;
     border: 5px solid #B1B87C;
     font-family: Terminator, sans-serif;
-    font-size: 150%;
+    font-size: 80%;
 }
 
 td,
@@ -78,12 +82,6 @@ td a {
     color: #B1B87C;
 }
 
-body>p {
-    font-size: 20px;
-    margin-bottom: 21px;
-    margin-top: 21px;
-}
-
 body {
     padding-left: 20px;
 }
@@ -100,6 +98,7 @@ body header .centre h1 {
 
 .auteur {
     margin-top: 0;
+    width: 150%;
 }
 
 a:link {
@@ -134,15 +133,16 @@ h1,h2,h3,h4,.bandeau-navigation {
 }
 
 h1 {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 150%;
+    line-height: 82px;
     margin-top: 42px;
     margin-bottom: 21px;
+    padding-left: 200px;
 }
 
 
 h2 {
-    font-size: 28px;
+    font-size: 150%;
     line-height: 42px;
     margin-bottom: 21px;
     margin-top: 21px;
@@ -159,20 +159,35 @@ h3 {
 
 h4 {
      color: #B1B87C;
-    font-size: 120%;
+    font-size: 160%;
  }
 
+.centreaccueil {
+    padding-left: 80px;
+}
+
 .centreaccueil h4 {
+    font-size: 150%;
+}
+
+.prologue {
+    color: #B1B87C;
+    -webkit-text-stroke: 3px #0e0c02;
+    padding-left: 250px;
+    font-size: 200%;
+}
+
+.centreaccueil h2 {
+    line-height: 80px;
+    position: center;
+    display: inline-block;
+    padding-left: 375px;
+    color: #B1B87C;
     font-size: 95%;
 }
 
-.centreaccueil h1 {
-    color: #B1B87C;
-    -webkit-text-stroke: 3px #0e0c02;
-}
-
 .deapropos h4 {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .deapropos .text a , .externes a {
@@ -192,13 +207,21 @@ h4 {
     text-align: center;
 }
 
+.artun {
+    padding-left: 500px;
+}
+
+.le {
+    padding-left: 300px;
+}
+
 .text ul li a {
     font-family: Verdana, sans-serif;
     font-size: 150%;
 }
 
 .bandeau-navigation ul li a {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .bandeau-navigation {
@@ -207,15 +230,24 @@ h4 {
 
 .bandeau-navigation>.nav>nav>ul>li>a  {
     color: #B1B87C;
-    text-align: center;
 }
 
-footer>p {
-    color: #CFCCCC;
+.bandeau-navigation>.nav>nav>h4 {
+    display: none;
+}
+
+.bandeau-navigation>.nav>nav {
+    text-align: center;
+    padding-left: 200px;
+}
+
+.bandeau-navigation>.nav>nav>ul>li {
+    display: inline;
 }
 
 footer p {
-    font-size: 70%;
+    font-size: 90%;
+    color: #CFCCCC;
 }
 
 .left ul li a {
@@ -224,6 +256,17 @@ footer p {
 
 .internes ul li a {
     color: #B1B87C;
+
+}
+
+.deapropos h3 {
+    color: #B1B87C;
+    font-size: 150%;
+    line-height: 100px;
+}
+
+.texte {
+    font-size: 70%;
 }
 
 .text {

@@ -1,22 +1,13 @@
-html {
-    font-size: 62.5%;
-}
 
-a {
+.carousel-items figcaption a {
     text-decoration: none;
-    color: #707070;
+    font-size: 80%;
+    font-family: Verdana, sans-serif;
+    color: #B1B87C;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-body {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin: 0;
-}
+
 
 code {
     color: #038BDB;
@@ -41,8 +32,4 @@ header {
     scroll-snap-type: x mandatory;
 }
 
-.carousel-item {
-    flex: 1 0 220px;
-    margin-right: 20px;
-    scroll-snap-align: center;
-}
+
