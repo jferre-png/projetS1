@@ -2,91 +2,25 @@
 
 @font-face {
     font-family: 'Verdana';
-    src: url('mescss/Verdana.woff') format('woff');
-    url('mescss/Verdana.ttf') format('truetype');
+    src: url('mescss/font/Verdana.woff') format('woff');
+    url('mescss/font/Verdana.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Terminator';
-    src: url('mescss/terminator real nfi.woff') format('woff'),
-    url('terminator real nfi.ttf') format('truetype');
+    src: url('mescss/font/terminator real nfi.woff') format('woff'),
+    url('font/terminator real nfi.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-.liste ul .films a{
-    color: #038BDB;
-    font-size: 30pt;
-    height: 50px;
-    width: 100px;
-
-}
-
-.fa {
-    color: #038BDB;
-    font-size: 200%;
-}
-
-p {
-    font-family: Verdana, sans-serif;
-    font-size: 140%;
-    line-height: 120px;
-    text-align: left;
-    color: #CFCCCC;
-    width: 130%;
-}
-
-blockquote p {
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-    border-radius: 5px;
-    color: #8A9A8E;
-}
-
-.auteur {
-    color: #8A9A8E;
-    font-family: Verdana, sans-serif;
-}
-
-caption {
-    text-align: left;
-}
-
-table {
-    border-collapse: collapse;
-    border: 5px solid #B1B87C;
-    font-family: Terminator, sans-serif;
-    font-size: 80%;
-}
-
-td,
-th {
-    border: 1px solid #B1B87C;
-    padding: 7px 5px;
-}
-
-th {
-    background-color: #B1B87C;
-    color: #0e0c02;
-}
-
-td {
-    text-align: center;
-    background-color: #0e0c02;
-}
-
-td a {
-    color: #B1B87C;
 }
 
 body {
     padding-left: 20px;
 }
 
-body>header>div.centre>h1>a {
+body header .centre h1 a {
      color: #7B78DC;
      font-size: 28px;
      width: 200px;
@@ -96,20 +30,30 @@ body header .centre h1 {
     width: 300px;
 }
 
-.auteur {
-    margin-top: 0;
-    width: 150%;
-}
 
 a:link {
    color: #038BDB;
+}
+
+a:visited {
+    color: #7B78DC;
 }
 
 a {
      color: blue;
      text-decoration: none;
      font-weight: bold;
- }
+}
+
+.auteur {
+    color: #8A9A8E;
+    font-family: Verdana, sans-serif;
+}
+
+.auteur {
+    margin-top: 0;
+    width: 150%;
+}
 
 .externes a {
     color: #B1B87C;
@@ -123,10 +67,6 @@ a {
     background-color: #0e0c02;
 }
 
-.liste ul li a {
-     font-size: 50%;
- }
-
 h1,h2,h3,h4,.bandeau-navigation {
     font-family: Terminator, sans-serif;
     font-weight: normal;
@@ -139,7 +79,6 @@ h1 {
     margin-bottom: 21px;
     padding-left: 200px;
 }
-
 
 h2 {
     font-size: 150%;
@@ -170,13 +109,6 @@ h4 {
     font-size: 150%;
 }
 
-.prologue {
-    color: #B1B87C;
-    -webkit-text-stroke: 3px #0e0c02;
-    padding-left: 250px;
-    font-size: 200%;
-}
-
 .centreaccueil h2 {
     line-height: 80px;
     position: center;
@@ -184,6 +116,11 @@ h4 {
     padding-left: 375px;
     color: #B1B87C;
     font-size: 95%;
+}
+
+.deapropos h3 {
+    text-align: center;
+    padding-left: 40%;
 }
 
 .deapropos h4 {
@@ -203,66 +140,28 @@ h4 {
     font-size: 150%;
 }
 
-.retour {
-    text-align: center;
-}
-
-.artun {
-    padding-left: 500px;
-}
-
-.le {
-    padding-left: 300px;
-}
-
-.text ul li a {
-    font-family: Verdana, sans-serif;
+.deapropos h3 {
+    color: #B1B87C;
     font-size: 150%;
-}
-
-.bandeau-navigation ul li a {
-    font-size: 50px;
+    line-height: 100px;
 }
 
 .bandeau-navigation {
     color: white;
 }
 
-.bandeau-navigation>.nav>nav>ul>li>a  {
+.bandeau-navigation  p a {
+    font-family: 'Terminator', sans-serif;
     color: #B1B87C;
+    text-align: center;
+    padding-left: 300px;
+    display: inline;
+    border: 2px #7B78DC;
+    font-size: 50px;
 }
 
 .bandeau-navigation>.nav>nav>h4 {
     display: none;
-}
-
-.bandeau-navigation>.nav>nav {
-    text-align: center;
-    padding-left: 200px;
-}
-
-.bandeau-navigation>.nav>nav>ul>li {
-    display: inline;
-}
-
-footer p {
-    font-size: 90%;
-    color: #CFCCCC;
-}
-
-.left ul li a {
-    font-family: Verdana, sans-serif;
-}
-
-.internes ul li a {
-    color: #B1B87C;
-
-}
-
-.deapropos h3 {
-    color: #B1B87C;
-    font-size: 150%;
-    line-height: 100px;
 }
 
 .texte {
@@ -282,4 +181,90 @@ footer p {
     width: 80%;
     height: 80%;
 }
+
+.liste ul li a {
+    font-size: 50%;
+}
+
+.liste ul .films a{
+    color: #038BDB;
+    font-size: 35pt;
+    height: 50px;
+    width: 100px;
+}
+
+.prologue {
+    color: #B1B87C;
+    -webkit-text-stroke: 3px #0e0c02;
+    padding-left: 250px;
+    font-size: 200%;
+}
+
+.retour {
+    text-align: center;
+    font-size: 200%;
+    padding-left: 50%;
+}
+
+.artun {
+    padding-left: 500px;
+}
+
+.le {
+    padding-left: 300px;
+}
+
+.text ul li a {
+    font-family: Verdana, sans-serif;
+    font-size: 150%;
+}
+
+footer p {
+    font-size: 90%;
+    color: #CFCCCC;
+}
+
+.left ul li a {
+    font-family: Verdana, sans-serif;
+}
+
+.internes ul li a {
+    color: #B1B87C;
+}
+
+strong {
+    color: #B1B87C;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 140%;
+    line-height: 120px;
+    text-align: left;
+    color: #CFCCCC;
+    width: 130%;
+}
+
+blockquote p {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: #8A9A8E;
+}
+
+caption {
+    text-align: left;
+}
+
+.fa {
+    color: #038BDB;
+    font-size: 200%;
+    display: table-cell;
+    padding: 30%;
+}
+
+
+
+
 

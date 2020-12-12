@@ -7,6 +7,15 @@
     float: right;
 }
 
+.visite {
+    width: 160%;
+}
+
+.externes figure img {
+    height: 800px;
+    width: 500px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,6 +43,11 @@ h1 {
 
 label {
     color: #B1B87C;
+    font-size: 140%;
+}
+
+button {
+    font-size: 140%;
 }
 
 form {
@@ -46,18 +60,18 @@ form div + div {
 
 input, textarea {
     font: 1em sans-serif;
-    width: 500px;
+    width: 1000px;
     height: 50px;
     background-color: #7B78DC;
 }
 
 .message textarea {
-    width: 500px;
+    width: 1000px;
     height: 500px;
 }
 
 .button {
-    padding-right: 90px;
+    padding-left: 400px;
 }
 
 button {
@@ -73,7 +87,7 @@ header {
     bottom: 0;
 }
 
-header:before {content:url("smoke_background.jpg");
+header:before {content:url("img-css/smoke_background.jpg");
     position:absolute;
     top:0;
     left: -450px;
@@ -139,65 +153,72 @@ footer p {
     position: relative;
 }
 
-footer:before {content:url("background_footer.jpg");
+footer:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -1890px;
-    left:-40px;
+    bottom: -2320px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
-.footaccueil:before {content:url("background_footer.jpg");
+.footaccueil:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -6890px;
-    left:-50px;
-    opacity: 0.2;
-    z-index:-1;
-
-}
-
-.footun:before {content:url("background_footer.jpg");
-    position:absolute;
-    bottom: -14930px;
-    left:-50px;
+    bottom: -8078px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
-.footdeux:before {content:url("background_footer.jpg");
+.footun:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -14200px;
-    left:0;
+    bottom: -15550px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
-.footrois:before {content:url("background_footer.jpg");
+.footdeux:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -14635px;
-    left:0;
+    bottom: -14650px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
-.footquatre:before {content:url("background_footer.jpg");
+.footrois:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -12550px;
-    left:0;
+    bottom: -15000px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
-.footaprop:before {content:url("background_footer.jpg");
+.footquatre:before {content:url("img-css/background_footer - Copie.jpg");
+    position:absolute;
+    bottom: -13130px;
+    left:-100px;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footaprop:before {content:url("img-css/background_footer.jpg");
     position:fixed;
-    bottom: -500px;
-    left:0;
+    bottom: -590px;
+    left:-100px;
+    opacity: 0.2;
+    z-index:-1;
+}
+
+.footliste:before {content:url("img-css/background_footer - Copie.jpg");
+    position:absolute;
+    bottom: -1530px;
+    left:-100px;
     opacity: 0.2;
     z-index:-1;
 }
 
 .mentions-footer {
-    content: url('logo-mmi.png');
+    content: url('img-css/logo-mmi.png');
     width: 200px;
     height: 200px;
     float: right;
@@ -211,6 +232,11 @@ img {
     border-color: #038BDB;
     height: 800px;
     width: 1300px;
+}
+
+.terminator img {
+    width: 150%;
+    height: 90%;
 }
 
 .gafam img {
@@ -247,7 +273,6 @@ figcaption {
     height: 800px;
     width: 1300px;
 }
-
 
 .couv {
     margin-left: 250px;
@@ -312,14 +337,6 @@ hr:after {
     top: -13px;
 }
 
-.visite {
-    width: 160%;
-}
-
-.externes figure img {
-    height: 800px;
-    width: 500px;
-}
 
 ::-webkit-scrollbar {
     height: 10px;
@@ -333,7 +350,32 @@ hr:after {
     background-color: #038BDB;
 }
 
+table {
+    border-collapse: collapse;
+    border: 5px solid #B1B87C;
+    font-family: Terminator, sans-serif;
+    font-size: 80%;
+}
 
+td,
+th {
+    border: 1px solid #B1B87C;
+    padding: 7px 5px;
+}
+
+th {
+    background-color: #B1B87C;
+    color: #0e0c02;
+}
+
+td {
+    text-align: center;
+    background-color: #0e0c02;
+}
+
+td a {
+    color: #B1B87C;
+}
 
 
 
