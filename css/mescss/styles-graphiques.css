@@ -380,5 +380,11 @@ td a {
     color: #B1B87C;
 }
 
+.fa {
+    color: #038BDB;
+    font-size: 200%;
+    display: table-cell;
+    padding: 30%;
+}
 
 
