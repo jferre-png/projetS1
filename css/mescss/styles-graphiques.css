@@ -163,7 +163,7 @@ footer:before {content:url("img-css/background_footer - Copie.jpg");
 
 .footaccueil:before {content:url("img-css/background_footer - Copie.jpg");
     position:absolute;
-    bottom: -8078px;
+    bottom: -7940px;
     left:-100px;
     opacity: 0.2;
     z-index:-1;
@@ -235,8 +235,11 @@ img {
 }
 
 .terminator img {
-    width: 150%;
     height: 90%;
+}
+
+.webeco img {
+    width: 140%;
 }
 
 .gafam img {
