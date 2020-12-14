@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Verdana';
-    src: url('mescss/font/Verdana.woff') format('woff');
+    src: url('font/Verdana.woff') format('woff');
     url('mescss/font/Verdana.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Terminator';
-    src: url('mescss/font/terminator real nfi.woff') format('woff'),
+    src: url('/font/terminator real nfi.woff') format('woff'),
     url('font/terminator real nfi.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;

@@ -1,19 +1,12 @@
-.carousel-items figcaption a {
-    text-decoration: none;
-    font-size: 80%;
-    font-family: Verdana, sans-serif;
-    color: #B1B87C;
-}
-
-.carousel-item img {
-    flex: 1 2 530px;
-}
-
 code {
     color: #038BDB;
 }
 
-.carousel h3,
+img {
+    height: auto;
+}
+
+.carousel,
 header {
     margin: 0 20px;
 }
@@ -22,7 +15,7 @@ header {
     background-color: #038BDB;
     color: #CFCCCC;
     padding:20px 0;
-    width: 200%;
+    width: 150%;
 }
 
 .carousel-items {
@@ -31,5 +24,21 @@ header {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    font-size: 200%;
 }
 
+.carousel-item {
+    flex: 1 0 700px;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #707070;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #B1B87C;
+}
